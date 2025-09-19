@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>تسجيل الدخول</h2>
+        <h2>تسجيل </h2>
         <form action="login.php" method="post">
             <input type="text" name="username" placeholder="اسم المستخدم" required>
             <input type="password" name="password" placeholder="كلمة المرور" required>
