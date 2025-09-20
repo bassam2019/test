@@ -13,11 +13,14 @@
             <input type="password" name="password" placeholder="كلمة المرور" required>
             <input type="submit" value="دخول">
         </form>
-        <?php if (!empty($error)) { ?>
+        <?php if (!empty($error)) { 
+            header('location: login.php');
+            ?>
             <div class="error"><?php echo $error; ?></div>
         <?php } elseif (!empty($message)) { ?>
             <div class="message"><?php echo $message; ?></div>
         <?php } ?>
     </div>
 </body>
+
 </html>
