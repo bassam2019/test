@@ -7,9 +7,10 @@
 </head>
 <body>
     <div class="container">
-        <h1><?php echo "مرحباً بالعالم!"; ?></h1>
+        <h1><?php echo "مرحباً بكم !"; ?></h1>
         <p></p>
     </div>
 </body>
 </html>
+
 
